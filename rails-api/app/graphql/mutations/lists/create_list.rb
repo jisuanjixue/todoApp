@@ -1,7 +1,7 @@
 module Mutations
     module Lists
       class CreateList < BaseMutation
-        description "Create List for the user"
+        description "创建TODO列表"
   
         # Inputs
         argument :input, Types::Inputs::ListInput, required: true

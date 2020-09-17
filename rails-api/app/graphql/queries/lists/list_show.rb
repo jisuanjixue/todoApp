@@ -1,10 +1,10 @@
 module Queries
     module Lists
       class ListShow < BaseQuery
-        description "Get the selected list"
+        description "获取已选择的todo"
   
         # Inputs
-        argument :id, ID, required: true, description: "List Id"
+        argument :id, ID, required: true, description: "列表ID"
   
         type Types::ListType, null: true
   

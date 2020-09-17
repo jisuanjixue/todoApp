@@ -22,6 +22,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # MongoDB
 gem 'mongoid', '~> 7.0.5'
 
+gem 'kaminari-mongoid'
+gem 'kaminari-actionview'
+
 # GraphQL
 gem 'graphql', '~> 1.11', '>= 1.11.1'
 # version 3 required for playground of graphql

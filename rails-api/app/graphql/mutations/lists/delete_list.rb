@@ -1,7 +1,7 @@
 module Mutations
     module Lists
       class DeleteList < BaseMutation
-        description "Deleting a List from the user"
+        description "删除todo"
   
         # Inputs
         argument :id, ID, required: true
